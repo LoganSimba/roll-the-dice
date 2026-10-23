@@ -25,10 +25,13 @@ public class DiceApp {
                 case 6 -> sixCounter++;
                 case 8 -> sevenCounter++;
             }
-
-
         }
-
+        //print out how may time we encountered the
+        System.out.println("\n\n=============");
+        System.out.println("Two = " + twoCounter);
+        System.out.println("four = " + fourCounter);
+        System.out.println("Three = " + sixCounter);
+        System.out.println("four = " + sevenCounter);
 
     }
 
